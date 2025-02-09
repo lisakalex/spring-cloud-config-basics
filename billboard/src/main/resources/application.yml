@@ -4,7 +4,8 @@ spring:
     name: billboard
   config:
     import: "optional:configserver:http://localhost:8888" # only works in boot 2.4 or later
-
+  profiles:
+    active: dev
 
 management:
   endpoints:

@@ -9,7 +9,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/practical-microservices/spring-cloud-config-basics-repo.git
+#          uri: https://github.com/practical-microservices/spring-cloud-config-basics-repo.git
+          uri: https://github.com/lisakalex/spring-cloud-config-basics-repo.git
   application:
     name: greeter
 
